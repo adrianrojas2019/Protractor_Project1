@@ -19,8 +19,19 @@ describe('Demo Calculator Test', function(){
         homepage.get('http://juliemr.github.io/protractor-demo/')
         homepage.enterFirstNumber('10')
         homepage.enterSecondNumber('5')
+        homepage.selectOperator('-')
         homepage.clickGo()
         homepage.verifyResult('5')
+        browser.sleep(2000)
+    })
+
+    it('Failed test', function(){
+        homepage.get('http://juliemr.github.io/protractor-demo/')
+        homepage.enterFirstNumber('10')
+        homepage.enterSecondNumber('5')
+        homepage.selectOperator('-')
+        homepage.clickGo()
+        homepage.verifyResult('35')
         browser.sleep(2000)
     })
 
