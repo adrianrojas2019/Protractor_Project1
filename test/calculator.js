@@ -1,4 +1,4 @@
-let homepage = require('./pages/homepage')
+let homepage = require('../pages/homepage')
 
 // start local jenkins.war
 //java -jar jenkins.war --enable-future-java --httpPort=9191

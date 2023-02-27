@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites disabled="0" errors="0" failures="1" tests="2" time="11.146">
- <testsuite name="Demo Calculator Test" timestamp="2023-02-27T15:45:10" hostname="localhost" time="11.146" errors="0" tests="2" skipped="0" disabled="0" failures="1">
-  <testcase classname="Demo Calculator Test" name="addition test" time="10.746" />
-  <testcase classname="Demo Calculator Test" name="substraction test" time="0.399">
+<testsuites disabled="0" errors="0" failures="1" tests="2" time="7.941">
+ <testsuite name="Demo Calculator Test" timestamp="2023-02-27T16:08:35" hostname="localhost" time="7.941" errors="0" tests="2" skipped="0" disabled="0" failures="1">
+  <testcase classname="Demo Calculator Test" name="addition test" time="7.838" />
+  <testcase classname="Demo Calculator Test" name="substraction test" time="0.101">
    <failure type="exception" message="Failed: homepage.clickGo1 is not a function"><![CDATA[TypeError: homepage.clickGo1 is not a function
     at UserContext.<anonymous> (/Users/adrianrojas/Projects/Protractor/Protractor_Project1/test/calculator.js:22:18)
     at /usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:112:25
@@ -13,7 +13,7 @@
     at TaskQueue.executeNext_ (/usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:3067:27)
     at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:2927:27
     at /usr/local/lib/node_modules/protractor/node_modules/selenium-webdriver/lib/promise.js:668:7
-    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
 From: Task: Run it("substraction test") in control flow
     at UserContext.<anonymous> (/usr/local/lib/node_modules/protractor/node_modules/jasminewd2/index.js:94:19)
     at attempt (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
@@ -32,10 +32,10 @@ Error
     at Env.describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)
     at describe (/usr/local/lib/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)
     at Object.<anonymous> (/Users/adrianrojas/Projects/Protractor/Protractor_Project1/test/calculator.js:5:1)
-    at Module._compile (internal/modules/cjs/loader.js:1085:14)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
-    at Module.load (internal/modules/cjs/loader.js:950:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:790:12)]]>
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:958:12)]]>
    </failure>
   </testcase>
  </testsuite>
