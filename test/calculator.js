@@ -17,10 +17,10 @@ describe('Demo Calculator Test', function(){
    
     it('substraction test', function(){
         homepage.get('http://juliemr.github.io/protractor-demo/')
-        homepage.enterFirstNumber('2')
-        homepage.enterSecondNumber('2')
-        homepage.clickGo1()
-        homepage.verifyResult('4')
+        homepage.enterFirstNumber('10')
+        homepage.enterSecondNumber('5')
+        homepage.clickGo()
+        homepage.verifyResult('5')
         browser.sleep(2000)
     })
 
