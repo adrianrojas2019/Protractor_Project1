@@ -20,7 +20,6 @@ describe('Demo Calculator Test', function(){
         homepage.enterFirstNumber('10')
         homepage.enterSecondNumber('5')
         homepage.selectOperator('-')
-        homepage.clickGo()
         homepage.verifyResult('5')
         browser.sleep(2000)
     })

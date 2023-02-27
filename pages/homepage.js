@@ -20,12 +20,11 @@ let homepage = function(){
     }
 
     this.selectOperator =  function(operator){
-        console.log("VOY")
         goOperator.click()
         browser.sleep(1000)
         //select operator and press enter
         goOperator.sendKeys(operator)
-        browser.sleep(3000)
+        browser.sleep(1000)
         goOperator.click()
     }
 
