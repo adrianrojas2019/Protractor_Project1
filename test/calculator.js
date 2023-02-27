@@ -12,7 +12,6 @@ describe('Demo Calculator Test', function(){
         homepage.enterSecondNumber('2')
         homepage.clickGo()
         homepage.verifyResult('4')
-        browser.sleep(2000)
     })
    
     it('substraction test', function(){
@@ -20,8 +19,8 @@ describe('Demo Calculator Test', function(){
         homepage.enterFirstNumber('10')
         homepage.enterSecondNumber('5')
         homepage.selectOperator('-')
+        homepage.clickGo()
         homepage.verifyResult('5')
-        browser.sleep(2000)
     })
 
     it('Failed test', function(){
@@ -31,7 +30,6 @@ describe('Demo Calculator Test', function(){
         homepage.selectOperator('-')
         homepage.clickGo()
         homepage.verifyResult('35')
-        browser.sleep(2000)
     })
 
 });

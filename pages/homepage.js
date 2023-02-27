@@ -25,7 +25,7 @@ let homepage = function(){
         //select operator and press enter
         goOperator.sendKeys(operator)
         browser.sleep(1000)
-        goOperator.click()
+        //goOperator.click()
     }
 
     this.verifyResult = function(result){
